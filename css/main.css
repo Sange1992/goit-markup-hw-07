@@ -635,7 +635,7 @@ header .container {
   margin: 0 auto;
 }
 
-.hero-title {
+.hero__title {
   color: var(--third-fonts-color);
   font-weight: 900;
   font-size: 44px;
@@ -648,7 +648,7 @@ header .container {
   margin-bottom: 30px;
 }
 
-.hero-btn {
+.hero__btn {
   color: var(--third-fonts-color);
   background-color: var(--accent-color);
   border-radius: 5px;

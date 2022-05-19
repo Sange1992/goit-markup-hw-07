@@ -8,36 +8,30 @@
         url(../images/hero.jpg);
     max-width: 1600px;
     margin: 0 auto;
-}
-
-.hero-title {
-    color: var(--third-fonts-color);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-
-
-    text-align: center;
-    max-width: 650px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-}
-
-.hero-btn {
-    color: var(--third-fonts-color);
-    background-color: var(--accent-color);
-    border-radius: 5px;
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-
-    padding: 10px 32px;
-    margin: 0 auto;
-
+    &__title {
+        color: var(--third-fonts-color);
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        text-align: center;
+        max-width: 650px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    &__btn {
+        color: var(--third-fonts-color);
+        background-color: var(--accent-color);
+        border-radius: 5px;
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        padding: 10px 32px;
+        margin: 0 auto;
+    }
 }
